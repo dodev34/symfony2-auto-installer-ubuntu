@@ -2,6 +2,8 @@
 #include <string>
 #include <stdlib.h>
 #include "../Classes/Installer.cpp"
+#define couleur(param) printf("\033[%sm",param)
+
 
 using namespace std;
 
@@ -12,10 +14,19 @@ int main()
 	std::string symfony_version;
 
 	// Renseignement du dossier d'installation.
-	cout << "Please, enter folder root for Symfony ~ ex : MyProjectSf " << endl;
+	couleur("32");
+	printf("Please, enter folder root for Symfony, exemple ");
+	couleur("34");
+	printf("[ ~/sfprojects/my_project ] : ");
+	couleur("0");
 	cin >> folder_installation;
+
 	// Renseignement de la version Sf
-	cout << "Please, enter Symfony 2 version ~ ex : " << Sf.getSymfonyVersion() << endl;
+	couleur("32");
+	printf("Please, enter Symfony 2 version, exemple ");
+	couleur("34");
+	printf("[ 2.2.1 ] : ");
+	couleur("0");	
 	cin >> symfony_version;
 	Sf.setSymfonyVersion(symfony_version);
 
