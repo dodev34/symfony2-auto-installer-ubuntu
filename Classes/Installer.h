@@ -48,6 +48,8 @@ class Installer
 		 */
 		std::string getFolderRoot();
 
+		void setFolderRoot(std::string path);
+
 	private:
 		
 		std::string symfony_repository;
