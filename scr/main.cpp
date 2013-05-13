@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <stdlib.h>
-#include "../Classes/Installer.cpp"
+#include "M12U/Installer/Installer.cpp"
 #define couleur(param) printf("\033[%sm",param)
 
 
