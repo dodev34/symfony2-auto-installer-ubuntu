@@ -5,7 +5,7 @@ C++ Installer for Symfony 2
 Required CURL.
 
 EASY installation to Symfony2 project without multi commande line !
-Juste rum "symfony" file on commande line : ./symfony
+Juste run "symfony" file on commande line : ./symfony
 
 On console:
 ````
