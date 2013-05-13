@@ -21,7 +21,7 @@ Compile App
 ==============================
 
 ````
-g++ Sources/main.cpp -o symfony
+g++ src/main.cpp -o symfony
 ````
 
 Create a new Symfony Project
