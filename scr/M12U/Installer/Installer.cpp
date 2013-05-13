@@ -65,7 +65,8 @@ void Installer::setFolderRoot(string folder)
 
 void Installer::addComposerToSfProject()
 {
-	std::string folder = "cd "+ folder_root +"; curl -sS https://getcomposer.org/installer | php";
+	std::string folder = "cd "+ folder_root +"/ && curl -sS https://getcomposer.org/installer | php";
 
 	system(folder.c_str());
+	system("rm -f composer.phar");
 }

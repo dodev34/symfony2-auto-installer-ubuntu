@@ -34,6 +34,8 @@ int main()
 	Sf.getComposer();
 	// Installation du dossier Sf
 	Sf.getSymfony(folder_installation);
+	// Up
+	Sf.addComposerToSfProject();
 
 	return 0;
 }
