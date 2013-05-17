@@ -21,6 +21,7 @@ Compile App
 ==============================
 
 ````
+sudo apt-get install g++
 g++ src/main.cpp -o symfony
 ````
 
